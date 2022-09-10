@@ -3,7 +3,17 @@ html {
     scroll-behavior: smooth;
   }
 body {
-    background: rgb(58, 58, 58);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+        background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url(https://edmarketing.org/wp-content/uploads/2022/06/garena-free-fire-max.jpg);
   }
   
   .content {
