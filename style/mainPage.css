@@ -23,14 +23,13 @@ body {
   
   .content {
     
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
    /* background: white;*/
     padding: 0px;
   }
 
   .center {
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -53,6 +52,7 @@ body {
 
 .card {
     width: 90%;
+    max-width: 500px;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -143,8 +143,8 @@ a {
   -o-transition: 0.2s;
 }
 
-a.facebook{
-  color: #0087f5;
+a.youtube{
+  color: #f50000;
 }
 
 a.instagram{

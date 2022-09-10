@@ -1,6 +1,6 @@
-function facebookClicked() {
+function youtubeClicked() {
    // document.getElementById("demo").innerHTML = "Hello World";
-    window.open('https://www.facebook.com/mrwekayt', '_blank').focus();
+    window.open('https://www.youtube.com/c/MrWekaYt', '_blank').focus();
 }
 
 function instagramClicked(){
