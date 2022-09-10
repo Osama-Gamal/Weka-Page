@@ -13,7 +13,7 @@ function tiktokClicked(){
 }
 
 function moveNext(appImage,appName,appText,appUrl){
-    window.location.href="/design/appPage.html";
+    window.location.href="design/appPage.html";
 
     localStorage.setItem("appImage",appImage);
     localStorage.setItem("appName",appName);
