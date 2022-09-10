@@ -9,7 +9,7 @@ function installApp(){
 
 
 function moreApps(){
-    window.location.href="/index.html";
+    window.location.href="index.html";
 }
 
 function Init(){
