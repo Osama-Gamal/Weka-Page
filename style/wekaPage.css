@@ -41,7 +41,7 @@ body {
 
 @font-face {
   font-family: 'MyWebFont';
-  src: url('assets/CairoFont/Cairo-VariableFont_wght.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('Cairo-VariableFont_wght.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }  
 
 
