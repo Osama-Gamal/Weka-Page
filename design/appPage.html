@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="/style/wekaPage.css">
 
 </head>
-<body>
-    <script src="/script/mainPage.js"></script> 
+<body onload="Init()">
+    <script src="/script/appPage.js"></script> 
 
    
   
@@ -24,10 +24,10 @@
     
   
 
-    <img src="/assets/weka_settings.png" style="width: 50%;height:50%;" class="center">
-    <h2>Weka Settings</h2>
+    <img id="appImage" src="/assets/weka_settings.png" style="width: 50%;height:50%;" class="center">
+    <h2 id="appName">Weka Settings</h2>
 
-    <p class="w3-justify">هو تطبيق يعطيك جميع اعدادات فري فاير حسب نوع جهازك اذا كان موبايل او كمبيوتر .
+    <p style="font-family: MyWebFont; text-align: center;" id="appText" class="w3-justify">هو تطبيق يعطيك جميع اعدادات فري فاير حسب نوع جهازك اذا كان موبايل او كمبيوتر .
         فهو يعطيك اعدادات الهيدشوت التي تتكون من اعدادات الحساسيه ، حجم زر الضرب ، dpi و سرعه المؤشر .
         يعطيك ايضا اعدادات وسائل التحكم والجرافيك والكثير من الاعدادات الاخري .</p>
 
@@ -41,8 +41,8 @@
         </pre> 
         
         <div class="center">
-            <button class="btn-grad  orange-btn gra"><h3>تثبيت التطبيق</h3></button>
-            <button class="btn-grad  blue-btn gra"><h3>مزيد من التطبيقات</h3></button>
+            <button style="font-family: MyWebFont;" onclick="installApp()" class="btn-grad  orange-btn gra"><h3>تثبيت التطبيق</h3></button>
+            <button style="font-family: MyWebFont;" onclick="moreApps()" class="btn-grad  blue-btn gra"><h3>مزيد من التطبيقات</h3></button>
           </div>
 
 
