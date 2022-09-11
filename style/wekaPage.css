@@ -14,6 +14,8 @@ body {
         url(https://edmarketing.org/wp-content/uploads/2022/06/garena-free-fire-max.jpg);
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&display=swap');
+
   .content {
     max-width: 500px;
     margin: auto;
@@ -38,15 +40,17 @@ body {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }*/
-
+/*
 @font-face {
+  font-family: 'Cairo', sans-serif;
   font-family: 'MyWebFont';
-  src: url('Cairo-VariableFont_wght.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}  
+  src: url('Cairo-VariableFont_wght.ttf') format('truetype');
+}  */
 
 
   .button {
     background-color: #f0cc03;
+    
     /*Green*/border: none;
     color: white;
     padding: 16px 32px;
