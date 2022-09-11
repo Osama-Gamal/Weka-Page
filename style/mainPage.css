@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
   }
+
 body {
     
     background-size: cover;
@@ -19,11 +20,7 @@ body {
 
   @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500&display=swap');
 
- /* @font-face {
-    font-family: 'MyWebFont';
-    src: url('Cairo-VariableFont_wght.ttf') format('truetype');
-  }  
-  */
+
   .content {
     
     max-width: 800px;
