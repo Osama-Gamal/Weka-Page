@@ -5,7 +5,7 @@ I made this app denpends on a request from my client to create a simple website 
 to find all his apps , and download it from google play.
 
 **You can see the website here** **:-**
-https://www.mrweka.com/
+https://osama-gamal.github.io/Weka-Page/
 
 **Screenshots** **:-**
 
